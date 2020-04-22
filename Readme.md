@@ -1,6 +1,6 @@
 The analysis was performed using QIIM2 API.
 
-1. Installing QIIME2
+1. Installing QIIME2(detail information is stated in qiime2.org)
 2. Get the table.qza and rep.qza using Qiime2 command line interface. Then import the file to work on Jupyter notebook.
 3. Sample metadata (mapping file)
     • Metadata provides the key to gaining biological insight from your raw data. It is a mapping file for the data. The   
