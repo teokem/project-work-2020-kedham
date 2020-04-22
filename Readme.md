@@ -1,6 +1,17 @@
-The analysis was performed using QIIM2 API.
+This notebook is updated after reviewer's comments.
+Manly the instructions for running the notebook was updated:
 
-1. Installing QIIME2(detail information is stated in qiime2.org)
+1. Install Miniconda/Anaconda.
+2. Install qiime2.It is a well established microbiota analysis pipline and it is continuesly updated into new versions. In my case, I have intalled qiime2-2020.2 environment.It has a lots of plugin for different parts of analysis. Install it from qiime2.org
+3. Download the files from this GitHub repository(It needs to unzip the folder)
+4. In the terminal, navigate/change working directorate to the folder you downloaded from GitHub.
+5. conda activate qiime2-2020.2
+        - The environment qiime2-2020.2 contains the required packages.
+        To use this environment type the following into your terminal
+6. Now run the notebook by typing jupyter notebook
+
+Additional information:
+1. The analysis was performed using QIIM2 API.
 2. Get the table.qza and rep.qza using Qiime2 command line interface. Then import the file to work on Jupyter notebook.
 3. Sample metadata (mapping file)
     • Metadata provides the key to gaining biological insight from your raw data. It is a mapping file for the data. The   
